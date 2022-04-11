@@ -7,6 +7,6 @@
     * If argument is 2 - Data will be read from temporary Tables and loaded to base tables.
     * If argument is 3 - Successfully imported/updated records will be cleared.
     * If argument is 4 - Data will be read from CSV file and loaded to base table(Credit details).
-    * If argument is 5 - Period end Stored procedure will be called [Link]. (https://github.com/saitamatp/Misc/blob/main/sp_period_end_cal.sql "Link title"). 
+    * If argument is 5 - Period end Stored procedure will be called [Link]. (https://github.com/saitamatp/Misc/blob/main/sp_period_end_cal.sql  "Link title"). 
     * If argument is 100 - This is to check if connection is successfull.
     * Any other argument for now is not recognised.
