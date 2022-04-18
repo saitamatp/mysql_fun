@@ -8,7 +8,7 @@ pub fn read() -> HashMap<String,String> {
     
     let mut params = HashMap::new();
 
-    let f = File::open(r#"D:\temp\cnfg.txt"#).unwrap_or_else(|err| {
+    let f = File::open(r#"D:\prm\cnfg.txt"#).unwrap_or_else(|err| {
         println!("Unable to open paramter file due the error: {}",err);
         process::exit(1);
     });
